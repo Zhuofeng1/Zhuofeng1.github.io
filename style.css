@@ -2,12 +2,15 @@
 body {
     background: rgb(87, 176, 235);
     color: rgb(45, 45, 45);
-    padding: 30px;
+    padding: 50px;
     font-family: sans-serif;
+    
+    
+
 }
 #all-contents { 
   max-width: 800px;
-    margin: auto;
+    margin: flex;
 }
 
 /* navigation menu */
@@ -16,7 +19,7 @@ nav {border-radius: 30px;
    margin-bottom: 0 auto; 
    margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding:10px;
 }
 h1 {
     display: flex;
@@ -30,7 +33,7 @@ h1 {
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -38,7 +41,7 @@ a {
 }
 
 /* main container area beneath menu */
-main { border-radius: 30px;
+main { border-radius: 20px;
     background: #38c078;
     display:flex;
 }
